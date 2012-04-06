@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>andrew giessel : {{title}}</title>
+    <link rel="shortcut icon" href="/favicon.gif">
+    
+    <!--CSS-->
+
+    <!--External-->
+
+  </head>
+  <body>
+    
+    <div id="header">
+    </div>
+
+    <div id="content">
+      <h1> hello, world!  wait, no!... actually, yes</h1>
+    </div>
+
+    <div id="footer">
+    </div>
+
+  </body>
+</html>
+

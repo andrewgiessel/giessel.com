@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+for year in years
+  <h2>{{year}}</h2>
+  for p in year.posts
+    print post
+endfor
+endfor
+
+{% endblock %}

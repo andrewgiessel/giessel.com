@@ -1,0 +1,33 @@
+import markdown
+from flask import Flask
+from flask import render_template
+from flask import Markup
+from flaskext.flatpages import FlatPages
+
+application = Flask(__name__)
+application.debug=True
+
+blog_pages = FlatPages(application, root='blog')
+research_pages = FlatPages(application, root='research')
+
+@application.route('/')
+def index():
+    content ="""
+Chapter
+=======
+
+Section
+-------
+  
+* Item 1
+* Item 2
+"""
+    content = Markup(markdown.markdown(content))
+    articles = ','.join([p.title for p in blog_pages])
+    return articles
+#    return render_template('index.html', content=content)
+#    return 'Hello world!  Er, no... wait, yes!'
+
+if __name__ == '__main__':
+    application.run()
+        
