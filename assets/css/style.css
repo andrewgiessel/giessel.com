@@ -133,9 +133,8 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 18px;
   color: #333333;
   background-color: #ffffff;
   padding-top: 60px;
@@ -204,6 +203,22 @@ a:hover {
 }
 .span1 {
   width: 60px;
+}
+.post {
+	position: relative;
+	width: 940px;
+	margin-top: 20px;
+	display: table;
+
+}
+.post-header {
+	width: 564px;
+	display: table;
+}
+.post-content {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	display: table;
 }
 .offset12 {
   margin-left: 980px;
@@ -377,8 +392,9 @@ h6 small {
   color: #999999;
 }
 h1 {
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgba(40, 40, 40, .85);
 }
 h1 small {
   font-size: 18px;
@@ -417,13 +433,16 @@ h6 {
   text-transform: uppercase;
 }
 .header {
+  position: relative;
   padding-bottom: 17px;
   margin: 18px 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
 
 }
 .logo {
-	height: 100px;
-	width: 150px;
+	position: absolute;
 }
 .logo > span {
 	display: block;
@@ -2512,10 +2531,23 @@ input[type="submit"].btn.btn-mini {
   opacity: 0.75;
   filter: alpha(opacity=75);
 }
-.nav {
-  margin-left: 0;
-  margin-bottom: 18px;
-  list-style: none;
+.topnav {
+ 	position: absolute;
+	left: 170px;
+	bottom: 50;
+}
+.topnav > li {
+	display: inline;
+}
+.topnav > li > a {
+	float: left;
+	width: 100px;
+	padding-top: 20px;
+	padding-left: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.125em;
+	font-weight: bold;
+	color: rgba(40, 40, 40, .85);
 }
 .nav > li > a {
   display: block;
@@ -3950,4 +3982,7 @@ button.close {
 .visible-tablet {
   display: none !important;
 }
-.hidden-desktop {
+footer {
+	bottom: 0px;
+	float: right;
+}
