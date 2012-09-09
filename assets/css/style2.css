@@ -174,7 +174,8 @@ a:hover {
 .headcontainer {
   position: relative;
   width: 100%;
-  background: #000 url() repeat;
+  background-image:url('../txture.png');
+  background-repeat:repeat-x;
 }
 .span11 {
   width: 860px;
@@ -451,6 +452,7 @@ h6 {
 
 }
 .logo {
+	margin-top: 10px;
 	position: absolute;
 }
 .logo > span {
@@ -2543,7 +2545,7 @@ input[type="submit"].btn.btn-mini {
 .topnav {
  	position: absolute;
 	left: 170px;
-	bottom: 50;
+	bottom: 20px;
 }
 .topnav > li {
 	display: inline;
