@@ -2556,7 +2556,7 @@ input[type="submit"].btn.btn-mini {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125em;
 	font-weight: 300;
-	color: rgba( 40, 40, 40, .85);
+	color: rgba( 255, 255, 255, .85);
 	-webkit-transition: all 0.3s ease-in; /*Safari & Chrome*/
 	transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in; /* Firefox 4 */
@@ -2567,7 +2567,7 @@ input[type="submit"].btn.btn-mini {
 	-webkit-stroke-width: 5.3px;
     -webkit-stroke-color: #FFFFFF;
     -webkit-fill-color: #FFFFFF;
-    text-shadow: 1px 0px 10px red;
+    text-shadow: 1px 0px 20px white;
     -webkit-transition: width 0.3s; /*Safari & Chrome*/
     transition: width 0.3s;
     -moz-transition: width 0.3s; /* Firefox 4 */
