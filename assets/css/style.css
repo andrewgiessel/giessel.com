@@ -456,14 +456,36 @@ h6 {
 .logo {
 	position: absolute;
 }
-.logo > span {
-	display: block;
-	margin-left:auto;
-	margin-right:auto;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	text-align: center;
-	color: #000;
+#cf {
+  position: absolute;
+  height:60px;
+  width:150px;
+  margin:0 auto;
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+#cf img.top:hover {
+  opacity:0;
+}
+.arrow:after {
+	content: "";
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(sprites.png) no-repeat;
+	background-position: -50px 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+}
+.arrow:hover:after {
+	opacity: 1;
 }
 .page-header h1 {
   line-height: 1;
@@ -2545,25 +2567,23 @@ input[type="submit"].btn.btn-mini {
 }
 .topnav {
  	position: absolute;
-	left: 170px;
-	bottom: 50;
+	bottom: 30px;
+	right: 0px;
 }
 .topnav > li {
 	display: inline;
 }
 .topnav > li > a {
-	float: left;
-	width: 100px;
-	padding-top: 20px;
-	padding-left: 70px;
+    margin-left: 140px;
+	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125em;
 	font-weight: 300;
 	color: rgba( 40, 40, 40, .85);
-	-webkit-transition: all 0.3s ease-in; /*Safari & Chrome*/
-	transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in; /* Firefox 4 */
-	-o-transition: all 0.3s ease-in; /* Opera */
+	-webkit-transition: all 0.3s ease-in-out; /*Safari & Chrome*/
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out; /* Firefox 4 */
+	-o-transition: all 0.3s ease-in-out; /* Opera */
 	text-decoration:none;
 	right: 0px;
 }
@@ -2576,6 +2596,10 @@ input[type="submit"].btn.btn-mini {
     transition: width 0.3s;
     -moz-transition: width 0.3s; /* Firefox 4 */
     -o-transition: width 0.3s; /* Opera */
+	-webkit-transition: all 0.3s ease-in-out; /*Safari & Chrome*/
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out; /* Firefox 4 */
+	-o-transition: all 0.3s ease-in-out; /* Opera */
 }
 .nav > li > a {
   display: block;
