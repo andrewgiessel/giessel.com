@@ -414,7 +414,9 @@ h2 small {
 }
 h3 {
   font-size: 18px;
-  line-height: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgba( 40, 40, 40, .85);
 }
 h3 small {
   font-size: 14px;
@@ -4039,38 +4041,4 @@ footer {
 }
 .post-date {
 	margin-top: 20px;
-}
-.accordion {
-  margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: rgba( 40, 40, 40, .85);
-}
-
-.accordion-group {
-  margin-bottom: 2px;
-  border: 0px solid #e5e5e5;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-}
-
-.accordion-heading {
-  border-bottom: 0;
-}
-
-.accordion-heading .accordion-toggle {
-  display: block;
-  padding: 8px 15px;
-}
-
-.accordion-toggle {
-  cursor: pointer;
-  font-size: 2em;
-}
-
-.accordion-inner {
-  padding: 9px 15px;
-  border-top: 1px solid #e5e5e5;
-  font-size: 1em;
 }
