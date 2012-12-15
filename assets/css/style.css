@@ -217,7 +217,7 @@ a:hover {
 	display: table;
 }
 .post-content {
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-bottom: 100px;
 	display: table;
 	font: 'LinuxLibertineORegular', Arial, sans-serif;
@@ -364,7 +364,8 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-
+  font-family: "Average", serif;
+  font-size: 1em;
 }
 p small {
   font-size: 11px;
@@ -399,7 +400,7 @@ h6 small {
 }
 h1 {
   font-family: "Open Sans";
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 300;
   color: rgba(40, 40, 40, .85);
 }
@@ -440,15 +441,15 @@ h5 {
 }
 h6 {
   font-family: "Open Sans";
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 300;
   color: #6A0E00;
   text-transform: uppercase;
 }
 .header {
   position: relative;
-  padding-bottom: 17px;
-  margin: 18px 0;
+  padding-bottom: 12px;
+  margin: 10px 0;
   margin-left: auto;
   margin-right: auto;
   height: 60px;
@@ -3816,7 +3817,8 @@ a.thumbnail:hover {
   border-radius: 4px;
 }
 .accordion {
-	font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 18px;
 }
 .accordion-group {
