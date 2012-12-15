@@ -364,6 +364,7 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
+
 }
 p small {
   font-size: 11px;
@@ -415,7 +416,7 @@ h2 small {
 h3 {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: rgba( 40, 40, 40, .85);
 }
 h3 small {
@@ -427,7 +428,9 @@ h6 {
   line-height: 18px;
 }
 h4 {
-  font-size: 14px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 h4 small {
   font-size: 12px;
@@ -3813,6 +3816,7 @@ a.thumbnail:hover {
   border-radius: 4px;
 }
 .accordion {
+	font-family: 'Open Sans', sans-serif;
   margin-bottom: 18px;
 }
 .accordion-group {
@@ -4036,6 +4040,9 @@ button.close {
   display: none !important;
 }
 footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .5em;
+	font-weight: 300;
 	bottom: 0px;
 	float: right;
 }
