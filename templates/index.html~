@@ -1,7 +1,0 @@
-{% extends "layout.html" %}
-
-{% block content %}
-		<p>Bushwick mustache williamsburg sriracha, thundercats odd future banh mi consectetur scenester carles pariatur. Chillwave exercitation freegan, mcsweeney's occaecat sunt sriracha bicycle rights assumenda id cupidatat ethical. Bushwick beard tempor, dolore eu small batch thundercats. Sunt chambray sed, scenester odd future VHS butcher art party accusamus ad mixtape duis food truck pariatur. Leggings vegan irure thundercats banksy. Tumblr selvage qui seitan irony. Cupidatat cosby sweater irure, duis odio chillwave non pitchfork truffaut mixtape sriracha food truck.</p>
-
-<p>3 wolf moon thundercats in lo-fi butcher +1. Lomo keffiyeh placeat irony, synth cosby sweater accusamus commodo gentrify. Retro craft beer nihil, VHS nesciunt trust fund fap consequat godard duis. Terry richardson nisi eiusmod, organic leggings nostrud ut sapiente vice biodiesel photo booth. Est ullamco polaroid, odio sunt farm-to-table trust fund DIY tempor ut chambray placeat. Marfa anim enim pour-over cliche fap lo-fi etsy. Vinyl selvage fap ad, street art retro craft beer wes anderson mixtape sint seitan eiusmod placeat odio.</p>
-{% endblock %}
