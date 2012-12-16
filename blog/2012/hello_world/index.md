@@ -1,6 +1,6 @@
 # testing.html
-title: Hello
-published: 2010-12-22
+title: Hello, World!
+published: 2012-12-22
 
 ##THIS IS BLOG POST BITCH
 
