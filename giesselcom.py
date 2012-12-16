@@ -30,7 +30,7 @@ application.debug=True
 #       year/
 #          post-name-like-this.md
 #               title
-#               published (date | None)
+#               published (date | False)
 #               blank line
 #               md body
 
@@ -66,7 +66,8 @@ def blog_index():
 
 @application.route('/blog/<postname>')
 def blog_post(postname=None):
-    years, blog_data = parse_blog_directory()
+    years, blog_data = parse_blog_directory(drafts_ok = True)
+
     for year in years:
         posts = blog_data[year]
         for post in posts:
@@ -76,7 +77,7 @@ def blog_post(postname=None):
     # if we didn't find the post, throw a 404
     return render_template('404.html'), 404
 
-def parse_blog_directory():
+def parse_blog_directory(drafts_ok = False):
     all_years = os.walk('./blog').next()[1]
     
     # build dictionary of lists
@@ -85,15 +86,17 @@ def parse_blog_directory():
 
     for year in all_years:
         post_data = [parse_post_file(md_file) for md_file in glob.glob('./blog/' + year + '/*.md')]
-        sorted_post_data = sorted(post_data, key=lambda post: post['published'])[::-1]
 
         # remove any post where "published" is False (aka a draft)
-        sorted_post_data = [post for post in sorted_post_data if post['published']]
+        # and then sort
+        if not drafts_ok:
+            post_data = [post for post in post_data if post['published']]
+            post_data = sorted(post_data, key=lambda post: post['published'])[::-1]
+            
+        if post_data:
+            blog_data[year] = post_data
 
-        if sorted_post_data:
-            blog_data[year] = sorted_post_data
-
-    # can get this from the reverse sorted keys of the blog_data dict
+    # can get valid sorted years from the reverse sorted keys of the blog_data dict
     valid_years = sorted(blog_data)[::-1]
     
     return valid_years, blog_data
