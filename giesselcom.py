@@ -35,8 +35,20 @@ application.debug=True
 @application.route('/')
 def index():
     # post = most recent blog post
-    #return     return render_template('index.html', post=post)
-    return render_template('index.html')#, title=': index')
+    
+    most_recent_year = os.walk('./blog').next()[1][::-1][0]
+    
+    # build dictionary of lists
+    # keys: years
+    # values: post data, sorted by date
+    blog_data = {}
+
+    post_dirs = os.walk(os.path.join('./blog', most_recent_year)).next()[1]
+    post_data = [parse_post_file(os.path.join('./blog', most_recent_year, post, 'index.md')) for post in post_dirs]
+    sorted_post_data = sorted(post_data, key=lambda post: post['published'])[::-1]   
+
+    return render_template('blog_post.html', post=sorted_post_data[0])
+
 
 @application.route('/about/')
 def about_index():
@@ -52,7 +64,6 @@ def contact_index():
 
 @application.route('/blog/')
 def blog_index():
-
     # list of all years
     years = os.walk('./blog').next()[1]
     
