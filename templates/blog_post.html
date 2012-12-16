@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block title %}
+  {% if change_title is defined %} - {{ post.title }}{% endif %}
+{% endblock %}
+
 {% block content %}
 <!-- Content -->
 <div class="container">
