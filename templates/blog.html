@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+
 {% block title %} - Blog Archive{% endblock %}
 
 {% block content %}
@@ -9,29 +10,21 @@
     <h1>Blog Posts</h1>
   </div>
 
-	<div class="post-date">
-		<h6>Archive</h6>
-	</div>
-
-
-  <div id="accordion">
-    <h3>2012</h3>
-    <div>
-		<h4>Lorem ipsum dolor sit amet<br>
-			Lorem ipsum dolor sit amet<br>
-			Lorem ipsum dolor sit amet<br>
-		</h4>
-    </div>
-    <h3>2011</h3>
-    <div>
-		<h4>Phasellus mattis tincidunt nibh.</h4>
-	</div>
-    <h3>2010</h3>
-    <div>
-		<h4>Nam dui erat, auctor a, dignissim quis.</h4>
-	</div>
+  <div class="post-date">
+    <h6>Archive</h6>
   </div>
 
+  <div id="accordion">
+    {% for year in years %}
+      <h3>{{ year }}</h3>
+      <div>
+	<h4>
+	    {% for post in blog_data[year] %}
+	       <a href='{{ post.dirname }}'>{{ post.title }}</a><br>
+	    {% endfor %}
+	</h4>
+      </div>    
+    {% endfor %}
 
 </div>
 {% endblock %}
