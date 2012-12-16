@@ -20,7 +20,7 @@
       <div>
 	<h4>
 	    {% for post in blog_data[year] %}
-	       <a href='{{ post.dirname }}'>{{ post.title }}</a><br>
+	       <a href='/blog/{{ post.url }}'>{{ post.title }}</a><br>
 	    {% endfor %}
 	</h4>
       </div>    
