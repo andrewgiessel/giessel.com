@@ -50,7 +50,6 @@ def research_index():
 def contact_index():
     return render_template('contact.html')
 
-
 @application.route('/blog/')
 def blog_index():
 
@@ -74,14 +73,14 @@ def blog_index():
 
 @application.route('/blog/<postname>')
 def blog_post(postname=None):
-    blog_dir = './gcom/blog'
-    #    blog_dir = './blog'
-    dirs = [name for name in os.listdir(blog_dir) if os.path.isdir(os.path.join(blog_dir, name))]
-    for dir in dirs:
-        index_file = os.path.join(blog_dir, name, postname, 'index.md')
+    ###blog_dir = './gcom/blog'
+    blog_dir = './blog'
+    dirs = os.walk('./blog').next()[1]
+    for d in dirs:
+        index_file = os.path.join(blog_dir, d, postname, 'index.md')
         if os.path.isfile(index_file):
             post = parse_post_file(index_file)
-            return render_template('post.html', post=post)
+            return render_template('blog_post.html', post=post)
 
     # if we didn't find the post, throw a 404
     return render_template('404.html'), 404
