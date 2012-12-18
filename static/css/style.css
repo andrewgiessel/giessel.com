@@ -133,7 +133,7 @@ body {
   margin: 0;
 
   background-color: #ffffff;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 a {
   text-decoration: none;
@@ -4042,12 +4042,52 @@ button.close {
   display: none !important;
 }
 footer {
+	position: absolute;
+	bottom: 0px;
+	right: 15%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: .5em;
-	font-weight: 300;
-	bottom: 0px;
-	float: right;
+	font-weight: 300;	
 }
 .post-date {
 	margin-top: 20px;
+}
+.accordian-container {
+	margin-top: 30px;
+}
+
+#contact {
+	left: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.125em;
+	font-weight: 300;
+	color: rgba( 40, 40, 40, .85);
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0px 0px;
+}
+#contact > li {
+	line-height: 40px;
+}
+#contact > li > a > span {
+	padding-left: 4em;
+}
+#mail {
+	background-image: url('../img/mail_ico.png');
+	background-repeat: no-repeat;
+	
+}
+#twit {
+	background-image: url('../img/twit_ico.png');
+	background-repeat: no-repeat;
+	
+}	
+#flck {
+		background-image: url('../img/flickr_ico.png');
+		background-repeat: no-repeat;
+}
+#git {
+		background-image: url('../img/git_ico.png');
+		background-repeat: no-repeat;
+
 }

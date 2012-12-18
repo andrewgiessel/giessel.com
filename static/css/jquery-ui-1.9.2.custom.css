@@ -32,11 +32,11 @@
 
 /* Overlays */
 .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.ui-accordion .ui-accordion-header { display: block; cursor: pointer; position: relative; margin-top: 5px; padding: .5em .5em .5em .7em; zoom: 1; }
-.ui-accordion .ui-accordion-icons { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header { display: block; cursor: pointer; position: relative; margin-top: 0px; padding: 0em .5em .5em .7em; zoom: 1; }
+.ui-accordion .ui-accordion-icons { padding-left: 2em; }
 .ui-accordion .ui-accordion-noicons { padding-left: .7em; }
-.ui-accordion .ui-accordion-icons .ui-accordion-icons { padding-left: 2.2em; }
-.ui-accordion .ui-accordion-header .ui-accordion-header-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-icons .ui-accordion-icons { padding-left: 2em; }
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon { position: absolute; left: 0em; top: 50%; margin-top: -8px; }
 .ui-accordion .ui-accordion-content { padding: .3em 2.2em; border-top: 0; overflow: auto; zoom: 1; }
 
 /* Component containers
