@@ -218,12 +218,7 @@ a:hover {
 }
 .post-content {
 	margin-top: 30px;
-	margin-bottom: 100px;
 	display: table;
-	font: 'LinuxLibertineORegular', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    color: #333333;
 }
 .offset12 {
   margin-left: 980px;
@@ -365,7 +360,7 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Average", serif;
-  font-size: 1em;
+  font-size: .8em;
 }
 p small {
   font-size: 11px;
@@ -4090,4 +4085,8 @@ footer {
 		background-image: url('../img/git_ico.png');
 		background-repeat: no-repeat;
 
+}
+.research-content {
+	font-family: "Average", serif;
+	font-size: .8em;
 }
