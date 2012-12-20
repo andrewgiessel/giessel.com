@@ -130,7 +130,7 @@ textarea {
   vertical-align: top;
 }
 body {
-  margin: 0;
+  margin-bottom: 40px;
 
   background-color: #ffffff;
   padding-top: 40px;
@@ -4037,9 +4037,11 @@ button.close {
   display: none !important;
 }
 footer {
+	display: none;
 	position: absolute;
+	margin-top: 100px;
 	bottom: 0px;
-	right: 15%;
+	right: 0px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: .5em;
 	font-weight: 300;	
@@ -4093,20 +4095,26 @@ footer {
 #publications {
 	list-style: none;
 	margin: 0 0 0 0;
+	font-family: "Average", serif;
+	font-size: .8em;
 }
-#publications > li {
+#publications > a > li {
 	margin-top: 20px;
 	padding: 10px;
 	overflow: auto;
 }
-#publications > li > img{
+#publications > a > li > img{
 	float: left;
 	margin: 0 15px 0 0;
 }
-#publications > li > span {
-	top: 0px;
-}
-#publications > li:hover {
+
+#publications > a > li:hover {
   background: #eee;
   cursor: pointer;
+}
+::selection {
+	background: #ffb7b7;
+}
+p.red::-moz-selection {
+	background: #ffb7b7;
 }
