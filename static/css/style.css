@@ -4090,3 +4090,23 @@ footer {
 	font-family: "Average", serif;
 	font-size: .8em;
 }
+#publications {
+	list-style: none;
+	margin: 0 0 0 0;
+}
+#publications > li {
+	margin-top: 20px;
+	padding: 10px;
+	overflow: auto;
+}
+#publications > li > img{
+	float: left;
+	margin: 0 15px 0 0;
+}
+#publications > li > span {
+	top: 0px;
+}
+#publications > li:hover {
+  background: #eee;
+  cursor: pointer;
+}
