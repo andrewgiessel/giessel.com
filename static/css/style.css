@@ -360,7 +360,7 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Average", serif;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 p small {
   font-size: 11px;
@@ -4096,7 +4096,7 @@ footer {
 	list-style: none;
 	margin: 0 0 0 0;
 	font-family: "Average", serif;
-	font-size: .8em;
+	font-size: 1em;
 }
 #publications > a > li {
 	margin-top: 20px;
