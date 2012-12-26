@@ -1,10 +1,5 @@
-# testing.html
+# hello_world.md
 title: Hello, World!
-published: 2012-12-22
-
-
-##THIS IS BLOG POST BITCH
+published: 2012-12-25
 
 Hello, *World*!
-
-Lorem ipsum dolor sit amet

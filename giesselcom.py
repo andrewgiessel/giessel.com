@@ -10,7 +10,7 @@ import string
 import os
 
 application = Flask(__name__)
-application.debug=True
+#application.debug=True
 
 # templates
 # directories
@@ -60,8 +60,8 @@ def index():
 @application.route('/blog/')
 def blog_index():
     # get sorted list of years (newest first) and dictionary of all blog data
-
     years, blog_data = parse_blog_directory()
+
     return render_template('blog.html', blog_data=blog_data, years=years)
 
 @application.route('/blog/<postname>')
@@ -78,14 +78,16 @@ def blog_post(postname=None):
     return render_template('404.html'), 404
 
 def parse_blog_directory(drafts_ok = False):
-    all_years = os.walk('./blog').next()[1]
-    
+    blog_dir = '/home/giesselc/env/giessel.com/blog/'
+
+    all_years = os.walk(blog_dir).next()[1]
+
     # build dictionary of lists
     # year: [sorted post data]
     blog_data = {}
 
     for year in all_years:
-        post_data = [parse_post_file(md_file) for md_file in glob.glob('./blog/' + year + '/*.md')]
+        post_data = [parse_post_file(md_file) for md_file in glob.glob(blog_dir + year + '/*.md')]
 
         # remove any post where "published" is False (aka a draft)
         # and then sort
