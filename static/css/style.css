@@ -360,7 +360,7 @@ a:hover {
 p {
   margin: 0 0 9px;
   font-family: "Average", serif;
-  font-size: .8em;
+  font-size: 0.9em;
 }
 p small {
   font-size: 11px;
@@ -2565,7 +2565,7 @@ input[type="submit"].btn.btn-mini {
 }
 .topnav {
  	position: absolute;
-	bottom: 30px;
+	bottom: 22px;
 	right: 0px;
 }
 .topnav > li {
@@ -2575,7 +2575,7 @@ input[type="submit"].btn.btn-mini {
     margin-left: 140px;
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.125em;
+	font-size: 1.25em;
 	font-weight: 300;
 	color: rgba( 40, 40, 40, .85);
 	text-decoration:none;
