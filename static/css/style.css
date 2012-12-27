@@ -4102,6 +4102,10 @@ footer {
 	font-family: "Average", serif;
 	font-size: 1em;
 }
+#publications > a {
+    text-decoration: none;
+}
+
 #publications > a > li {
 	margin-top: 20px;
 	padding: 10px;
