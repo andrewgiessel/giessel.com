@@ -4066,6 +4066,10 @@ footer {
 #contact > li {
 	line-height: 40px;
 }
+#contact > li > a {
+	text-decoration: none;
+	color: black;
+}
 #contact > li > a > span {
 	padding-left: 4em;
 }
