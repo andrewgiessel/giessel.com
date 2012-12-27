@@ -1,6 +1,6 @@
 # hello_world.md
 title: Hello, World!
-published: 2012-12-25
+published: 2012-12-27
 
 Hello internet!  This post marks the "grand" relaunch of giessel.com.  I've had this domain since roughly 1999, when I first started university.  I had a ton of curiosity about web technologies at the time and used Perl to do some simple RSS parsing as well as scrap off webcomics and weather forecasts into one super rough 'homepage'.  A couple years later, I wrote a blog (using blogger) and essentially self-scraped the posts off of my blogger rss feed.  All very basic and, really, only for myself.  This was all hosted on the Linux box I built in the first week of college.... Memories!  Fast-forward a couple of years and I found myself updating the site less and less.  I moved the site to a friend's server, and continued to use andrew@giessel.com for my primary email through the first couple of years of graduate school.  Sometime in the middle of graduate school (2007ish?), my friend took his colo box down and I essentially lost my site, but retained the domain.
 
