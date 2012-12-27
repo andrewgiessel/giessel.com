@@ -72,7 +72,7 @@ def blog_post(postname=None):
         posts = blog_data[year]
         for post in posts:
             if post['url'] == postname:
-                return render_template('blog_post.html', post=post, change_title=True)
+                return render_template('blog_post.html', post=post, change_title=True, show_comments=True)
 
     # if we didn't find the post, throw a 404
     return render_template('404.html'), 404
