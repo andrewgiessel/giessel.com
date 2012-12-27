@@ -4104,6 +4104,7 @@ footer {
 }
 #publications > a {
     text-decoration: none;
+    color: black;
 }
 
 #publications > a > li {
