@@ -1,6 +1,6 @@
 This is the github repository for giessel.com.
 
-Requirements:
+Requirements (all installable via pip):
 * [Flask](http://flask.pocoo.org)
 * [PyYAML](http://pyyaml.org)
 * [Markdown](http://pypi.python.org/pypi/Markdown)
