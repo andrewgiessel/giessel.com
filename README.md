@@ -1,10 +1,16 @@
 This is the github repository for giessel.com.
 
+Requirements:
+* [Flask](http://flask.pocoo.org)
+* [PyYAML](http://pyyaml.org)
+* [Markdown](http://pypi.python.org/pypi/Markdown)
+
+
 The site is built using [Flask](http://flask.pocoo.org) for the backend, and [Twitter Bootstrap](twitter.github.com/bootstrap/) for the front-end (+ a lot of custom work).  The main three directories are as follows:
 
 * static  -  all resources for the site- images, css, and js.
 
-* templates -  a series of [jinja2]() templates for the site.  The essential structure is that base.html has a block that is replaced by each of the sub-pages as needed.
+* templates -  a series of [jinja2](http://jinja.pocoo.org/docs/) templates for the site.  The essential structure is that base.html has a block that is replaced by each of the sub-pages as needed.
 
 * blog - the markdown files that are the content of the blog posts.  Inside of blog, there is a subdirectory for each year, and inside of that, simply named markdown files with YAML front-matter.  This directory and these files are parsed to generate the blog.
 
