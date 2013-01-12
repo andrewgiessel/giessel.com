@@ -1,6 +1,5 @@
 title: The Beak of the Finch
-#published: 2013-01-12
-published: False
+published: 2013-01-12
 
 Today I finished reading[ 'The Beak of the Finch'](http://www.amazon.com/Beak-Finch-Story-Evolution-Time/dp/067973337X) by Jonathan Weiner.  Overall, I was pretty impressed.  The book focuses on two Princeton Evolutionary Biologists- [Peter](http://www.princeton.edu/eeb/people/display_person.xml?netid=prgrant&display=Emeritus%20Professors) and [Rosemary Grant](http://www.princeton.edu/eeb/people/display_person.xml?netid=rgrant&display=Emeritus%20Professors), who have been visiting the Galapagos Islands for decades.  While I've studied biology for a long time, I actually haven't read much in depth about evolution per-say, and I checked out the book from the Somerville Public Library and read it over the last week.  
 
