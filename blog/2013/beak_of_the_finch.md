@@ -5,7 +5,7 @@ Today I finished reading[ 'The Beak of the Finch'](http://www.amazon.com/Beak-Fi
 
 <center><img src="/static/img/finch_group.jpg", width="640", height="480"></center>
 
-Because the Grants and their research teams have returned to these islands year after year, they have been able to chronicle the rise and fall of these birds over time.  Remarkably, they have been able to capture and tag thousands upon thousands of individuals, measure their morphological features, and track the lineages of over two dozen generations of birds.  It is truly an impressive feat- especially when one considers that the major island they monitor, Daphne Major, is pretty barren volcanic rock in the ocean.
+Because the Grants and their research teams have returned to these islands year after year, they have been able to chronicle the rise and fall of these birds over time.  Remarkably, they have been able to capture and tag thousands upon thousands of individuals, measure their morphological features, and track the lineages of over two dozen generations of birds.  It is truly an impressive feat- especially when one considers that the major island they monitor, Daphne Major, is a pretty barren volcanic rock in the ocean.
 
 <center><img src="http://www.galapagosonline.com/Islands/islands/Daphne/daphne-img.jpg"></center>
 
