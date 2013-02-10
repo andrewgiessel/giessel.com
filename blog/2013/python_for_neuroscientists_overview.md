@@ -19,11 +19,11 @@ The text is broken into four parts: Fundamentals, Data Collection, Data Analysis
 
 -----
 
-Table Of Contents  (updated, edited, and subject to change as I go.  If you don't see a link- then I haven't gotten to it yet. Requests welcome ;) )
+# Table Of Contents  (updated, edited, and subject to change as I go.  If you don't see a link- then I haven't gotten to it yet. Requests welcome ;) )
 
 
-Part I - Fundamentals of Data Analysis with Python
---------------------------------------------------
+## Part I - Fundamentals of Data Analysis with Python
+
 
 * Basic Resources
 * IPython Notebooks
@@ -32,8 +32,7 @@ Part I - Fundamentals of Data Analysis with Python
 * Plotting
 * Debugging and Profiling Python Code
 
-Part II - Data Analysis with Python
------------------------------------
+## Part II - Data Analysis with Python
 
 * Frequency Analysis Part I: Fourier Decomposition
 * Frequency Analysis Part I: Non-stational Signals and Spectrograms
@@ -47,8 +46,7 @@ Part II - Data Analysis with Python
 * Neural Decoding Part I: Descrete Variables
 * Neural Decoding Part II: Continous Variables
 
-Part III - Data Modeling With MATLAB
-------------------------------------
+## Part III - Data Modeling With MATLAB
 
 * Modeling Differential Equations in Python
 * Voltage-Gated Ion Channels
