@@ -402,7 +402,8 @@ h1 small {
 }
 h2 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 36px
+  font-weight: 300;;
 }
 h2 small {
   font-size: 18px;
