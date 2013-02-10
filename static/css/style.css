@@ -379,9 +379,9 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: inherit;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: inherit;
+  color: rgba(40, 40, 40, .85);
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -394,16 +394,13 @@ h6 small {
   color: #999999;
 }
 h1 {
-  font-family: "Open Sans";
   font-size: 2.8em;
   font-weight: 300;
-  color: rgba(40, 40, 40, .85);
 }
 h1 small {
   font-size: 18px;
 }
 h2 {
-  font-family: "Open Sans";
   font-size: 24px;
   line-height: 36px;
 }
@@ -411,11 +408,8 @@ h2 small {
   font-size: 18px;
 }
 h3 {
-  font-family: "Open Sans";
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: rgba( 40, 40, 40, .85);
 }
 h3 small {
   font-size: 14px;
@@ -427,7 +421,6 @@ h6 {
 }
 h4 {
   font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 h4 small {
@@ -437,10 +430,8 @@ h5 {
   font-size: 12px;
 }
 h6 {
-  font-family: "Open Sans";
   font-size: 1em;
   font-weight: 300;
-  color: #6A0E00;
   text-transform: uppercase;
 }
 .header {
