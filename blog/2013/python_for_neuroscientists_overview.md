@@ -1,6 +1,6 @@
 title: Python for Neuroscientists - Overview
-#published: 2013-02-09
-published: False
+published: 2013-02-09
+#published: False
 
 Every research project I've ever worked on has involved extensive programing (although this likely is a reflection of the way I like to approach science!).  Over the years, I've used Perl, C/C++, Fortran, DSLs, IgorPro, MATLAB, and Python all to various degrees for acquisition, analysis, processing, and visualization.  When I started work in my postdoc lab, there wasn't a culture of any particular language, and so I was in the interesting position to make a decision between several different options.  In our lab, we have choosen to primarily use the Python programming language as an alternative to MATLAB for several key reasons:
 
