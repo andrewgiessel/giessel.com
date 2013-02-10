@@ -6,7 +6,7 @@ Every research project I've ever worked on has involved extensive programing (al
 
 1. Python is a fantastic general purpose programming language, with comprehensive and well thought-out syntax and language features.  I much prefer to use a general programming language with good domain specific libaries than a domain specific langauge with awkward, legacy laden syntax.
 
-2. Python is open source, and as such, free and cross-platform.  While I can easily get MATLAB via my university, I feel that using open source tools is in the general spirit of openness and scientific inquiry.
+2. Python is open source, and as such, free and cross-platform.  While I can easily get MATLAB for free via my university, I feel that using open source tools is in the general spirit of openness and scientific inquiry.
 
 3. The libaries and packages for python are terrific.  Numpy + Scipy + Matplotlib are probably the core of what I use, but the IPython project and espescailly the IPython Noteboks are just amazing.  Reproducibility of analysis and sharing of results are extremely important and only becoming moreso.  The Ipython notebook system is an awesome way to facilitate this.  Other notable libraries include pymorph/mahotas and sklearn.
 
@@ -57,7 +57,7 @@ I'd point out that this overview page will be updated, edited, and subject to ch
 
 <br />  
 
-## Part III - Data Modeling With MATLAB  
+## Part III - Data Modeling With Python  
   
 <br />  
 
