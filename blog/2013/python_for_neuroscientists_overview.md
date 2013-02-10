@@ -17,10 +17,11 @@ I am planning on working through the excellent "MATLAB for Neuroscientists" by W
 
 The text is broken into four parts: Fundamentals, Data Collection, Data Analysis, and Data Modeling.  I've decided to go lighter on the Fundamentals and skip the Data Collection sections.   I list below many great resourses for getting started and learning Python, and the Data Collection section is primarily focused on Psychophysics experiments, which lie outside of my field and interests.  I plan to write relatively long form posts (one per chapter) and have a lot of links to the appropriate libaries and functional Ipython notebooks.  
 
+I'd point out that this overview page will be updated, edited, and subject to change as I go.  If you don't see a link- then I haven't gotten to it yet. Requests welcome ;)
+
 -----
 
-# Table Of Contents  (updated, edited, and subject to change as I go.  If you don't see a link- then I haven't gotten to it yet. Requests welcome ;) )
-
+# Table Of Contents
 
 ## Part I - Fundamentals of Data Analysis with Python
 
