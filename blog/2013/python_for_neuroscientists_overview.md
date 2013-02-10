@@ -21,12 +21,11 @@ I'd point out that this overview page will be updated, edited, and subject to ch
 
 -----
 
-# Table Of Contents
-
-
-## Part I - Fundamentals of Data Analysis with Python
-
-
+# Table Of Contents  
+  
+  
+## Part I - Fundamentals of Data Analysis with Python  
+  
 * Basic Resources
 * IPython Notebooks
 * Numpy Guide
@@ -35,9 +34,9 @@ I'd point out that this overview page will be updated, edited, and subject to ch
 * Debugging and Profiling Python Code
 
 
-## Part II - Data Analysis with Python
-
-
+## Part II - Data Analysis with Python  
+  
+  
 * Frequency Analysis Part I: Fourier Decomposition
 * Frequency Analysis Part I: Non-stational Signals and Spectrograms
 * Wavelets
@@ -51,9 +50,9 @@ I'd point out that this overview page will be updated, edited, and subject to ch
 * Neural Decoding Part II: Continous Variables
 
 
-## Part III - Data Modeling With MATLAB
-
-
+## Part III - Data Modeling With MATLAB  
+  
+  
 * Modeling Differential Equations in Python
 * Voltage-Gated Ion Channels
 * Models of a Single Neuron
