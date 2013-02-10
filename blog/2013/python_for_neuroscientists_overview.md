@@ -20,7 +20,7 @@ The text is broken into four parts: Fundamentals, Data Collection, Data Analysis
 
 -----
 
-Table Of Contents  (updated, edited, and subject to change as I go)
+Table Of Contents  (updated, edited, and subject to change as I go.  If you don't see a link- then I haven't gotten to it yet.)
 
 Part I - Fundamentals of Data Analysis with Python
 
@@ -59,4 +59,5 @@ Part III - Data Modeling With MATLAB
 * Synaptic Transmission
 * Neural Networks Part I: Unsupervised Learning
 * Neural Networks Part II: Supervised Learning
+
 
