@@ -3,7 +3,7 @@ published: 2013-01-12
 
 Today I finished reading[ 'The Beak of the Finch'](http://www.amazon.com/Beak-Finch-Story-Evolution-Time/dp/067973337X) by Jonathan Weiner.  Overall, I was pretty impressed.  The book focuses on two Princeton Evolutionary Biologists- [Peter](http://www.princeton.edu/eeb/people/display_person.xml?netid=prgrant&display=Emeritus%20Professors) and [Rosemary Grant](http://www.princeton.edu/eeb/people/display_person.xml?netid=rgrant&display=Emeritus%20Professors), who have been visiting the Galapagos Islands for decades.  While I've studied biology for a long time, I actually haven't read much in depth about evolution per-say, and I checked out the book from the Somerville Public Library and read it over the last week.  
 
-<center><img src="/static/img/finch_group.jpg", width="640", height="480"></center>
+<center><img src="/static/img/finch_group.jpg"></center>
 
 Because the Grants and their research teams have returned to these islands year after year, they have been able to chronicle the rise and fall of these birds over time.  Remarkably, they have been able to capture and tag thousands upon thousands of individuals, measure their morphological features, and track the lineages of over two dozen generations of birds.  It is truly an impressive feat- especially when one considers that the major island they monitor, Daphne Major, is a pretty barren volcanic rock in the ocean.
 
