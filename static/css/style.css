@@ -4129,6 +4129,9 @@ p.red::-moz-selection {
     .topnav {
 	top: -15px;
 	left: 150px;
+	list-style-type: none;
+	
     }
+    .topnav > li {display: list-item;}
 
 }
