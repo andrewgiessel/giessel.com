@@ -4125,7 +4125,7 @@ p.red::-moz-selection {
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px)
 {
-    .span6, .container, .header {width: auto !important;}
+    .span6, .container, .header, .post-header {width: auto !important;}
     .topnav {
 	top: -15px;
 	left: 150px;
@@ -4133,5 +4133,4 @@ p.red::-moz-selection {
 	
     }
     .topnav > li {display: list-item;}
-
 }
