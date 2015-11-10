@@ -2558,9 +2558,9 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=75);
 }
 .topnav {
- 	position: absolute;
-	bottom: 22px;
-	right: 0px;
+        position: absolute;
+	top: 20;
+	left: 150px;
 }
 .topnav > li {
 	display: inline;
@@ -4126,4 +4126,9 @@ p.red::-moz-selection {
 @media only screen and (max-width: 767px)
 {
     .span6, .container, .header {width: auto !important;}
+    .topnav {
+	top: -15px;
+	left: 150px;
+    }
+
 }
