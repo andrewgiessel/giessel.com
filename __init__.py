@@ -48,14 +48,7 @@ def contact_index():
 
 @application.route('/')
 def index():
-    # get sorted list of years (newest first) and dictionary of all blog data
-    years, blog_data = parse_blog_directory()
-
-    most_recent_year = years[0]
-    most_recent_post = blog_data[most_recent_year][0]
-    
-    # render the most recent post
-    return render_template('blog_post.html', post=most_recent_post)
+    return render_template('research.html')
 
 @application.route('/blog/')
 def blog_index():
@@ -124,3 +117,5 @@ def parse_post_file(filename):
 
 if __name__ == '__main__':
     application.run()
+
+
